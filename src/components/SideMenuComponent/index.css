@@ -1,12 +1,29 @@
 .side-menu{
     width: 25%;
+    height: auto;
     margin: 0px auto;
-    height: 250px;
 }
 
 .logo{
     width: 33px;
     height: 33px;
     margin-top: 12px;
+    margin-left: 24px;
+}
+
+.home-elem{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.home-elem p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.home-svg{
+    width: 30px;
+    height: 30px;    
     margin-left: 24px;
 }
