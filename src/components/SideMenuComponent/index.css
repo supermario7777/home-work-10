@@ -3,3 +3,10 @@
     margin: 0px auto;
     height: 250px;
 }
+
+.logo{
+    width: 33px;
+    height: 33px;
+    margin-top: 12px;
+    margin-left: 24px;
+}
