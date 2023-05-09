@@ -1,4 +1,9 @@
 .home{
     width: 50%;
-    margin: 0px auto;
+    margin-left: 10px;
+}
+
+.home-p{
+    font-size: 18px;
+    font-weight: 500;
 }

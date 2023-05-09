@@ -1,5 +1,5 @@
 import MenuItem from './MenuItem'
-import { BOOKMARKS_SVG, EXPLORE_SVG, HOME_SVG, MESSAGES_SVG, NOTIFICATIONS_SVG } from './images'
+import { BOOKMARKS_SVG, EXPLORE_SVG, HOME_SVG, MESSAGES_SVG, MORE, NOTIFICATIONS_SVG, PROFILE, TWITTER_BLUE } from './images'
 import './index.css'
 import React from 'react'
 
@@ -26,6 +26,18 @@ export default function SideMenu() {
       icon: BOOKMARKS_SVG,
       name: "Bookmarks"
     },
+    {
+      icon: TWITTER_BLUE,
+      name: "Twitter Blue"
+    },
+    {
+      icon: PROFILE,
+      name: "Profile"
+    },
+    {
+      icon: MORE,
+      name: "More"
+    },
   ]
 
   return (
@@ -34,6 +46,7 @@ export default function SideMenu() {
       {menu.map((item, index) => (
         <MenuItem item={item} key={index}/>
       ))}
+      <button className='tweet-btn'>Tweet</button>
     </div>
   )
 }
